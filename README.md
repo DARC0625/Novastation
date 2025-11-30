@@ -26,10 +26,10 @@
 - 3차: 모니터링/로그(접속 기록, 리소스 사용), 자동화(Ansible/Proxmox API), 보안 강화를 위한 정책 적용.
 
 ## 디렉터리 구성
-- `codex/novastation/infra/proxmox/` — Proxmox 호스트 설정(PCI 패스스루)과 VM 템플릿 스크립트.
-- `codex/novastation/infra/guacamole/` — Guacamole + Postgres Docker Compose, Nginx 예제.
-- `codex/novastation/portal/backend/` — FastAPI 스켈레톤(유저/VM 매핑, Guac 링크 API).
-- `codex/novastation/portal/frontend/` — React/Vite 대시보드 스켈레톤.
+- `infra/proxmox/` — Proxmox 호스트 설정(PCI 패스스루)과 VM 템플릿 스크립트.
+- `infra/guacamole/` — Guacamole + Postgres Docker Compose, Nginx 예제.
+- `portal/backend/` — FastAPI 스켈레톤(유저/VM 매핑, Guac 링크 API).
+- `portal/frontend/` — React/Vite 대시보드 스켈레톤.
 
 ## 빠른 시작(요약)
 1) Proxmox 호스트: 패스스루 스크립트 실행 → 재부팅 → 템플릿 생성 → VM 클론 → 게스트 RDP/xrdp 활성화.
