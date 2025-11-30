@@ -1,4 +1,4 @@
-# Web VM Workspace Infra
+# NovaStation
 
 Infrastructure skeleton to host developer/design VMs on Proxmox and expose them via Apache Guacamole for browser-based access from low-spec PCs.
 
